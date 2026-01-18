@@ -5,7 +5,7 @@ import {
   SiJavascript, SiTypescript, SiMongodb, SiPostgresql, SiTailwindcss, 
   SiCplusplus, SiMysql, SiHtml5, SiCss3, SiR, SiExpress, SiNextdotjs, 
   SiFlask, SiFastapi, SiPandas, SiNumpy, SiScikitlearn, SiPytorch, 
-  SiPlotly, SiTableau, SiGooglecloud, SiJupyter, SiHuggingface, SiLangchain, SiSupabase 
+  SiPlotly, SiTableau, SiGooglecloud, SiJupyter, SiHuggingface, SiLangchain, SiSupabase, SiTerraform
 } from 'react-icons/si';
 import { VscAzure } from 'react-icons/vsc';
 import { TbApi } from 'react-icons/tb';
@@ -64,6 +64,7 @@ const TechStack = () => {
         { name: 'Docker', icon: <FaDocker />, color: '#2496ED' },
         { name: 'GCP', icon: <SiGooglecloud />, color: '#4285F4' },
         { name: 'Azure', icon: <VscAzure />, color: '#0078D7' },
+        { name: 'Terraform', icon: <SiTerraform />, color: '#7B42BC' },
       ]
     }
   ];
