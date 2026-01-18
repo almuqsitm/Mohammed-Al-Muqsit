@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #09090b; /* Zinc 950 */
+  --color-secondary: #18181b; /* Zinc 900 */
+  --color-accent: #22c55e; /* Green 500 */
+  --color-accent-glow: #4ade80; /* Green 400 */
+  --font-sans: Outfit, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-zinc-100 font-sans antialiased;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
