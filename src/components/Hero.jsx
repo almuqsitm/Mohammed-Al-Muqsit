@@ -37,7 +37,7 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="text-lg text-zinc-400 mb-8 max-w-lg leading-relaxed"
           >
-            I'm Mohammed Al-Muqsit who is currently a senior at The City College of New York focused on data science, software development, and emerging technologies.
+            I'm Mohammed Al-Muqsit, an upcoming May 2026 graduate at The City College of New York focused on data science, software development, and emerging technologies.
           </motion.p>
 
           <motion.div 
